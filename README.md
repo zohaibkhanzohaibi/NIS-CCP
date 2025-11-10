@@ -19,21 +19,21 @@ We rigorously evaluated its resistance against both **statistical (Frequency Ana
 
 | File / Directory | Description |
 | :--- | :--- |
+| **Core Cipher** | |
 | `Encrypt_decrypt.ipynb` | Core cipher implementation (encryption/decryption). |
-| `NIS-CCP Report.pdf` | The final comprehensive project report. |
-| `Frequency_Attack.ipynb` | Implementation of the Ciphertext-Only Attack (CPA). |
-| `freq_analysis_metrics.ipynb` | Post-processing, metrics, and plotting for CPA results. |
-| `avg_keyrank_vs_len.png` | Visualization: Average key rank vs. plaintext length. |
-| `avg_time_vs_keylen.png` | Visualization: Average runtime vs. key length. |
-| `success_rate_vs_PT_len.png` | Visualization: CPA success rate vs. plaintext length. |
-| `composite_vigenere_attack_summary.csv` | Raw CSV data summary for all CPA trials. |
-| **known_plaintext_attack/** | **Directory for the KPA analysis.** |
+| **Frequency Analysis Attack (CPA)** | |
+| <code>&nbsp;&nbsp;&nbsp;├─ Frequency_Attack.ipynb</code> | Implementation of the Ciphertext-Only Attack (CPA). |
+| <code>&nbsp;&nbsp;&nbsp;├─ freq_analysis_metrics.ipynb</code> | Post-processing, metrics, and plotting for CPA results. |
+| <code>&nbsp;&nbsp;&nbsp;├─ composite_vigenere_attack_summary.csv</code> | Raw CSV data summary for all CPA trials. |
+| <code>&nbsp;&nbsp;&nbsp;├─ avg_keyrank_vs_len.png</code> | Visualization: Average key rank vs. plaintext length. |
+| <code>&nbsp;&nbsp;&nbsp;├─ avg_time_vs_keylen.png</code> | Visualization: Average runtime vs. key length. |
+| <code>&nbsp;&nbsp;&nbsp;└─ success_rate_vs_PT_len.png</code> | Visualization: CPA success rate vs. plaintext length. |
+| **Known-Plaintext Attack (KPA)** | |
 | <code>&nbsp;&nbsp;&nbsp;├─ Known_Plaintext_Attack.ipynb</code> | Implementation of the algebraic Known-Plaintext Attack (KPA). |
 | <code>&nbsp;&nbsp;&nbsp;├─ known_plaintext_metrics.ipynb</code> | Post-processing, metrics, and plotting for KPA results. |
+| <code>&nbsp;&nbsp;&nbsp;├─ composite_vigenere_kpa_summary.csv</code> | Raw CSV data summary for all KPA trials. |
 | <code>&nbsp;&nbsp;&nbsp;├─ candidate_keys_vs_pt_len.png</code> | Visualization: Candidate keys vs. plaintext length. |
-| <code>&nbsp;&nbsp;&nbsp;├─ kpa_successrate_vs_pt_len.png</code> | Visualization: KPA success rate vs. plaintext length. |
-| <code>&nbsp;&nbsp;&nbsp;└─ composite_vigenere_kpa_summary.csv</code> | Raw CSV data summary for all KPA trials. |
-
+| <code>&nbsp;&nbsp;&nbsp;└─ kpa_successrate_vs_pt_len.png</code> | Visualization: KPA success rate vs. plaintext length. |
 
 
 ## 🔒 The Composite Vigenère Cipher
