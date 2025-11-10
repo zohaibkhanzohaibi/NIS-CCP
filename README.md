@@ -18,23 +18,23 @@ We rigorously evaluated its resistance against both **statistical (Frequency Ana
 ## 📂 Project File Structure
 
 /
-├─ Encrypt_decrypt.ipynb # Core cipher implementation (encryption/decryption)
-├─ NIS-CCP Report.pdf # Final project report
+├─ Encrypt_decrypt.ipynb                # Core cipher implementation (encryption/decryption)
+├─ NIS-CCP Report.pdf                   # Final project report
 │
-├─ Frequency_Attack.ipynb # Ciphertext-only attack implementation (CPA)
-├─ freq_analysis_metrics.ipynb # Post-processing CPA results, metrics, and plots
-├─ avg_keyrank_vs_len.png # Avg key rank vs plaintext length
-├─ avg_time_vs_keylen.png # Avg runtime vs key length
-├─ success_rate_vs_PT_len.png # CPA success rate vs plaintext length
-├─ composite_vigenere_attack_summary.csv # CPA trial summary CSV
+├─ Frequency_Attack.ipynb               # Ciphertext-only attack implementation (CPA)
+├─ freq_analysis_metrics.ipynb          # Post-processing CPA results, metrics, and plots
+├─ avg_keyrank_vs_len.png               # Avg key rank vs plaintext length
+├─ avg_time_vs_keylen.png               # Avg runtime vs key length
+├─ success_rate_vs_PT_len.png           # CPA success rate vs plaintext length
+├─ composite_vigenere_attack_summary.csv# CPA trial summary CSV
 │
 ├─ known_plaintext_attack/
-│ ├─ Known_Plaintext_Attack.ipynb # Algebraic KPA implementation
-│ ├─ known_plaintext_metrics.ipynb # Post-processing KPA metrics and plots
-│ ├─ candidate_keys_vs_pt_len.png # Candidate keys vs plaintext length
-│ ├─ kpa_successrate_vs_pt_len.png # KPA success rate vs plaintext length
-│ └─ composite_vigenere_kpa_summary.csv # KPA trial summary CSV
----
+│   ├─ Known_Plaintext_Attack.ipynb     # Algebraic KPA implementation
+│   ├─ known_plaintext_metrics.ipynb    # Post-processing KPA metrics and plots
+│   ├─ candidate_keys_vs_pt_len.png     # Candidate keys vs plaintext length
+│   ├─ kpa_successrate_vs_pt_len.png    # KPA success rate vs plaintext length
+│   └─ composite_vigenere_kpa_summary.csv# KPA trial summary CSV
+
 
 
 ## 🔒 The Composite Vigenère Cipher
