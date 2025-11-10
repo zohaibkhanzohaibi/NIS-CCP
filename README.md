@@ -15,6 +15,19 @@ We rigorously evaluated its resistance against both **statistical (Frequency Ana
 | Muhammad Zohaib Khan | CT-22072 |
 
 ---
+## 📂 Project File Structure
+
+| File / Directory | Description |
+|------------------|-------------|
+| `Encrypt_decrypt.ipynb` | Core Cipher Implementation (Encryption and Decryption logic). |
+| `Frequency_Attack.ipynb` | Code and analysis for the Frequency Analysis Attack (CPA). |
+| `Known_Plaintext_Attack.ipynb` | Code and analysis for the Known-Plaintext Attack (KPA). |
+| `README.md` | This documentation file. |
+| `frequency_analysis_attack/` | Contains performance data (.csv) and visualizations (.png) for the statistical attack. |
+| `known_plaintext_attack/` | Contains performance data (.csv) and visualizations (.png) for the algebraic attack. |
+
+---
+
 
 ## 🔒 The Composite Vigenère Cipher
 
@@ -58,21 +71,6 @@ To secure the cipher against the discovered linear vulnerabilities, the followin
 1. **Disrupt Linearity** – Introduce **Inter-Columnar Key Mixing** and use **Nonlinear Modular Mapping** to prevent attackers from solving the modular congruences.  
 2. **Break Symmetry** – Implement a **Keyed Initialization Vector (IV)** to randomize the aggregate key sum (**S_total**) term, eliminating the critical KPA outer loop.  
 3. **Irregular Scheduling** – Employ a **variable or irregular key application schedule** to remove the mathematical repetition factor (**m · k_t**) that causes ambiguity.
-
----
-
-## 📂 Project File Structure
-
-| File / Directory | Description |
-|------------------|-------------|
-| `Encrypt_decrypt.ipynb` | Core Cipher Implementation (Encryption and Decryption logic). |
-| `Frequency_Attack.ipynb` | Code and analysis for the Frequency Analysis Attack (CPA). |
-| `Known_Plaintext_Attack.ipynb` | Code and analysis for the Known-Plaintext Attack (KPA). |
-| `README.md` | This documentation file. |
-| `frequency_analysis_attack/` | Contains performance data (.csv) and visualizations (.png) for the statistical attack. |
-| `known_plaintext_attack/` | Contains performance data (.csv) and visualizations (.png) for the algebraic attack. |
-
----
 
 
 ---
