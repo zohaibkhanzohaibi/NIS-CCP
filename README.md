@@ -19,7 +19,8 @@ We rigorously evaluated its resistance against both **statistical (Frequency Ana
 
 | File / Directory | Description |
 | :--- | :--- |
-| **Core Cipher** | |
+| NIS-CCP Report.pdf | Formal Report |
+| README.md | ReadMe File |
 | `Encrypt_decrypt.ipynb` | Core cipher implementation (encryption/decryption). |
 | **Frequency Analysis Attack (CPA)** | |
 | <code>&nbsp;&nbsp;&nbsp;├─ Frequency_Attack.ipynb</code> | Implementation of the Ciphertext-Only Attack (CPA). |
