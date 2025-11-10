@@ -12,17 +12,13 @@ We rigorously evaluated its resistance against both **statistical (Frequency Ana
 | Laibah Shahid       | CT-22061    |
 | Tooba Kashaf        | CT-22068    |
 | Haiqa Siddiqua      | CT-22071    |
-| **Muhammad Zohaib Khan** | **CT-22072** |
+| Muhammad Zohaib Khan | CT-22072 |
 
 ---
 
 ## 🔒 The Composite Vigenère Cipher
 
 The cipher utilizes a **multi-round, hybrid approach** that iterates a sequence of **Caesar Shift** and **Vigenère** operations, repeated for the full length of the key (**|K|**):
-
-\[
-\text{Encryption} = (\text{Vigenère}_K \circ \text{Caesar}_{k_r})^{\times |K|}
-\]
 
 This design was intended to maximize **confusion (Vigenère)** and **diffusion (iterative shifts)**.
 
@@ -78,20 +74,6 @@ To secure the cipher against the discovered linear vulnerabilities, the followin
 
 ---
 
-### 📈 Example Metric Table
-
-| Metric | Calculation Method | Interpretation |
-|--------|--------------------|----------------|
-| **Success Rate** | (Count of trials where true key ∈ candidate list) / (Total trials) | Measures the mathematical correctness of the KPA solver. |
-| **Average Candidate Count** | Mean count of keys returned by the KPA solver. | Measures the ambiguity or remaining work. |
-| **Average Time (s)** | Mean time taken to run the KPA solver. | Measures the attack's computational cost. |
-
----
-
-## ⚙️ Technologies Used
-- Python (NumPy, Pandas, Matplotlib)
-- Jupyter Notebook
-- Custom Cipher Modules
 
 ---
 
